@@ -1,0 +1,37 @@
+<!--pages/calc/calc.wxml-->
+<view class="calc">
+  <view class="output">
+      <view>{{showData}}</view>
+  </view>
+  <view class="input">
+    <view class="groupbtn">
+        <view class="btn" bindtap="">C</view>
+        <view class="btn">←</view>
+        <view class="btn doubleWeight">%</view>
+    </view>
+    <view class="groupbtn">
+      <view class="btn" bindtap="inputnum" id="1">1</view>
+      <view class="btn" bindtap="inputnum" id="2">2</view>
+      <view class="btn" bindtap="inputnum" id="3">3</view>
+      <view class="btn">+</view>
+    </view>
+    <view class="groupbtn">
+      <view class="btn" bindtap="inputnum" id="4">4</view>
+      <view class="btn" bindtap="inputnum" id="5">5</view>
+      <view class="btn" bindtap="inputnum" id="6">6</view>
+      <view class="btn">-</view>
+    </view>
+    <view class="groupbtn">
+      <view class="btn" bindtap="inputnum" id="7">7</view>
+      <view class="btn" bindtap="inputnum" id="8">8</view>
+      <view class="btn" bindtap="inputnum" id="9">9</view>
+      <view class="btn">*</view>
+    </view>
+    <view class="groupbtn">
+      <view class="btn" bindtap="inputnum" id="0">0</view>
+      <view class="btn" bindtap="inputnum" id=".">.</view>
+      <view class="btn">=</view>
+      <view class="btn">/</view>
+    </view>
+  </view>
+</view>

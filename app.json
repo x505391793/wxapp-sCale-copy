@@ -1,13 +1,15 @@
 {
-  "pages":[
+  "pages": [
+    "pages/calc/calc",
     "pages/index/index",
     "pages/logs/logs"
+   
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#888888",
+    "navigationBarTitleText": "简易计算器-copy",
+    "navigationBarTextStyle": "white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

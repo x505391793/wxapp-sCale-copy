@@ -7,7 +7,8 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    primarySize: "mini"
   },
   //事件处理函数
   bindViewTap: function() {
@@ -49,6 +50,11 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  toCalc: function(){
+    wx.navigateTo({
+      url: '../calc/calc',
     })
   }
 })

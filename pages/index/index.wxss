@@ -6,10 +6,16 @@
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 256rpx;
+  height: 256rpx;
   margin: 20rpx;
-  border-radius: 50%;
+  border-radius: 10%;
+}
+
+.indexButton{
+  /* 距离上一个组件距离 */
+  margin-top:35%;
+  
 }
 
 .userinfo-nickname {
@@ -18,4 +24,7 @@
 
 .usermotto {
   margin-top: 200px;
+}
+.buttonClass{
+  border: 10px;
 }
